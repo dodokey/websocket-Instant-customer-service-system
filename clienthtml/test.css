@@ -1,0 +1,88 @@
+body{
+    font-family: "微軟正黑體";
+    background: url(./img/123.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 667px;
+}
+#main{
+    background: url(./img/img.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+}
+#main div{
+
+    height:33%; 
+}
+.servicerbuttondiv{
+    float: right;
+}
+#customerbutton{
+    margin: 0 auto;
+}
+#customerbutton{
+    background-image: linear-gradient(214deg, #77500E, #BA914E);
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 2em;
+    font-weight: bold;
+}
+#customerbutton:hover{
+    border: 5px solid #c4e3f3;
+}
+#chatbox{
+    background-color: #FFF3CD;
+    width: 100%;
+    resize:none;
+    height: 400px;
+}
+#dog{
+    width: 100%;
+}
+.panel-primary{
+    margin-top: 20px; 
+}
+.testdiv{
+    margin: auto;
+    border-style: solid;
+    width: 60%;
+    height: 200px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+body{
+    font-family: "微軟正黑體";
+    background: url(./img/123.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 667px;
+}
+
+}
+
+@media screen and (max-width: 767px){
+    body{
+    font-family: "微軟正黑體";
+    background: url(./img/456.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 667px;
+}
+    #customerbutton{
+        width: 80%;
+        height: 120px;
+        -moz-border-radius: 0%;
+        -webkit-border-radius: 0%;
+        border-radius: 0%;
+    }
+    #customerbuttondiv{
+
+        margin: 0 auto;
+
+    }
+
+}    
+
